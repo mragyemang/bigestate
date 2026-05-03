@@ -45,7 +45,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center text-white">
             <div className="space-y-2">
-              <h3 className="text-4xl font-bold">15+</h3>
+              <h3 className="text-4xl font-bold">5+</h3>
               <p className="text-emerald-200 font-medium">Years Experience</p>
             </div>
             <div className="space-y-2">
@@ -53,7 +53,7 @@ export default function HomePage() {
               <p className="text-emerald-200 font-medium">Customer Rating</p>
             </div>
             <div className="space-y-2">
-              <h3 className="text-4xl font-bold">2.5k</h3>
+              <h3 className="text-4xl font-bold">200+</h3>
               <p className="text-emerald-200 font-medium">Properties Sold</p>
             </div>
             <div className="space-y-2">

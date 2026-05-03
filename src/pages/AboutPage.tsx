@@ -18,11 +18,11 @@ export default function AboutPage() {
           <div className="space-y-8">
             <h4 className="text-emerald-600 font-bold tracking-widest uppercase">Our Story</h4>
             <h1 className="text-5xl font-extrabold text-slate-900 leading-tight">
-              Redefining Luxury Real Estate Since 2008.
+              Redefining Luxury Real Estate Since 2021.
             </h1>
             <div className="space-y-6 text-lg text-slate-600">
               <p>
-                At Big Estate, we believe that finding a home is more than a transaction. It's a life-changing milestone. For over 15 years, we have been connecting visionary buyers with extraordinary properties.
+                At Big Estate, we believe that finding a home is more than a transaction. It's a life-changing milestone. For over 5 years, we have been connecting visionary buyers with extraordinary properties.
               </p>
               <p>
                 Our approach is simple: absolute transparency, unwavering dedication, and an uncompromising standard of quality. We curate spaces that inspire, standing as a testament to exceptional architectural design and prime locations.
@@ -32,10 +32,10 @@ export default function AboutPage() {
             <div className="pt-8 border-t border-slate-200">
               <div className="flex items-center gap-6">
                 <div className="w-16 h-16 bg-slate-900 rounded-full flex items-center justify-center">
-                  <span className="text-white font-bold text-xl">JT</span>
+                  <span className="text-white font-bold text-xl">PA</span>
                 </div>
                 <div>
-                  <h4 className="text-xl font-bold text-slate-900">James Thornton</h4>
+                  <h4 className="text-xl font-bold text-slate-900">Prince Agyemang</h4>
                   <p className="text-emerald-600 font-medium">Founder & CEO</p>
                 </div>
               </div>
