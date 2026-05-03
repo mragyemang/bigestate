@@ -26,9 +26,9 @@ export default function ContactPage() {
                   <div>
                     <h4 className="font-bold text-lg mb-1">Office Address</h4>
                     <p className="text-emerald-100 leading-relaxed">
-                      1240 Luxury Boulevard,<br />
-                      Suite 800<br />
-                      Beverly Hills, CA 90210
+                      Nkwabeng North,<br />
+                      Sunyani<br />
+                      Bono Region
                     </p>
                   </div>
                 </div>
@@ -37,8 +37,8 @@ export default function ContactPage() {
                   <Phone className="w-6 h-6 text-emerald-400 mt-1" />
                   <div>
                     <h4 className="font-bold text-lg mb-1">Phone Number</h4>
-                    <p className="text-emerald-100 mb-1">+1 (800) 555-0199</p>
-                    <p className="text-emerald-100">+1 (800) 555-0198 (Sales)</p>
+                    <p className="text-emerald-100 mb-1">+233 208 012 645</p>
+                    <p className="text-emerald-100">+233 593 457 520 (Sales)</p>
                   </div>
                 </div>
 
