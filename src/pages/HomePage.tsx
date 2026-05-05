@@ -33,7 +33,6 @@ export default function HomePage() {
                 className="absolute inset-0 w-full h-full object-cover"
               />
             </div>
-            {/* Solid color accent blocks instead of gradients */}
             <div className="absolute -bottom-6 -left-6 w-48 h-48 bg-emerald-600 -z-10 hidden md:block"></div>
             <div className="absolute -top-6 -right-6 w-32 h-32 bg-slate-800 -z-10 hidden md:block"></div>
           </div>
