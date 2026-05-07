@@ -11,7 +11,7 @@ export default function AboutPage() {
               alt="Real Estate Agents" 
               className="absolute inset-0 w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700" 
             />
-            {/* Solid accent block replacing gradient */}
+           
             <div className="absolute top-1/2 -right-8 transform -translate-y-1/2 w-16 h-48 bg-emerald-500 hidden lg:block"></div>
           </div>
           

@@ -15,7 +15,7 @@ export default function ContactPage() {
 
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-12 bg-white shadow-xl">
           
-          {/* Contact Info Panel - Solid emerald background */}
+          {/* Contact Info Panel*/}
           <div className="lg:col-span-2 bg-emerald-800 text-white p-10 md:p-16 flex flex-col justify-between">
             <div>
               <h2 className="text-3xl font-bold mb-8 text-emerald-50">Contact Information</h2>
@@ -63,7 +63,7 @@ export default function ContactPage() {
             </div>
           </div>
 
-          {/* Contact Form Panel - Clean solid styling */}
+          {/* Contact Form Panel*/}
           <div className="lg:col-span-3 p-10 md:p-16">
             <h2 className="text-3xl font-bold text-slate-900 mb-8">Send us a Message</h2>
             

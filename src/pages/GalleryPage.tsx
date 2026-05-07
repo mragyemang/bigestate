@@ -30,7 +30,7 @@ export default function GalleryPage() {
                 alt={img.title} 
                 className="w-full h-full object-cover opacity-90 group-hover:opacity-75 group-hover:scale-110 transition-all duration-700 ease-in-out"
               />
-              {/* Solid Color Overlay Block instead of gradient */}
+              
               <div className="absolute inset-x-0 bottom-0 top-1/2 bg-slate-900 shadow-[0_-50px_50px_0_rgba(15,23,42,0.9)_inset] opacity-80 group-hover:opacity-90 transition-opacity"></div>
               
               <div className="absolute bottom-0 left-0 right-0 p-6 flex items-end">
