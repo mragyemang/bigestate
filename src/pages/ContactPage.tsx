@@ -37,8 +37,8 @@ export default function ContactPage() {
                   <Phone className="w-6 h-6 text-emerald-400 mt-1" />
                   <div>
                     <h4 className="font-bold text-lg mb-1">Phone Number</h4>
-                    <p className="text-emerald-100 mb-1">+233 208 012 645</p>
-                    <p className="text-emerald-100">+233 593 457 520 (Sales)</p>
+                    <p className="text-emerald-100 mb-1">+233 20 801 2645</p>
+                    <p className="text-emerald-100">+233 59 345 7520 (Sales)</p>
                   </div>
                 </div>
 
