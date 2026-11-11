@@ -1,73 +1,68 @@
-# React + TypeScript + Vite
+# Bigestate
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern estate and property website that brings property information, amenities, and helpful resources together in one clean web experience.
 
-Currently, two official plugins are available:
+**Live site:** [bigestate.vercel.app](https://bigestate.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Overview
 
-## React Compiler
+Bigestate is a real-estate website built to help visitors explore the property experience and learn more about the offering. The application includes dedicated pages for amenities, the company, a gallery, blog content, and contact information.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+- Home page and shared navigation
+- Dedicated amenities and about pages
+- Property and experience gallery
+- Blog and contact pages
+- Client-side page navigation
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Technology
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- React 19
+- TypeScript
+- Vite
+- React Router
+- Tailwind CSS
+- Lucide React icons
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## Getting Started
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### Prerequisites
+
+- Node.js and npm
+
+### Install and run
+
+```bash
+git clone https://github.com/mragyemang/bigestate.git
+cd bigestate
+npm install
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Vite will print a local development URL in the terminal.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## Available Scripts
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+| Command | Description |
+| --- | --- |
+| `npm run dev` | Start the development server |
+| `npm run build` | Type-check and create a production build |
+| `npm run preview` | Preview the production build locally |
+| `npm run lint` | Run ESLint |
+
+## Build for Production
+
+```bash
+npm run build
 ```
+
+The production output is generated in `dist/` and can be deployed to a static hosting provider such as Vercel.
+
+## Contributing
+
+Contributions and suggestions are welcome. Please open an issue to discuss significant changes, then submit a pull request with a concise summary.
+
+## License
+
+No license is currently specified. All rights remain with the project owner unless a license is added.
